@@ -2,13 +2,11 @@
 /*pc用スタイル IE用*/
 
 body {
-    margin: 0px 0 0 0;
-    padding: 0px auto;
+  margin: 0px 0 0 0;
+  padding: 0px auto;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	background-color: #ACE6F6;
-	background-image: url(../img/background.jpg);
-	background-repeat: repeat-x;
-	background-attachment: fixed;
+	background-image: url(../img/background02.png);
 }
 #page {
 	width: 960px;
@@ -62,23 +60,86 @@ a: hover {
     color: #aaa;
     text-decoration: underline;
 }
-/*ヘッダーメニュー--------*/
-header {
- width:960px;
- height:auto;
-	margin: 0 auto 0 auto;
-	background: #fff;
-	overflow:hidden;
-	display:block;
-	float:left;
-}
+
 #top{
-	width:960px;
+		width:100%;
+		height: auto;		overflow:hidden;
+		z-index:100000;
+		width:100%;
+		margin:0 0 5% 0;
+		background-image: url(../img/header_06.png);
+		background-size: cover;
+		padding-top: 5%;
+}
+
+.top_01{
+	width:70%;
+	height:auto;
+	float: left;
+}
+
+.top_01 img{
+	width:100%;
+}
+
+.block_01{
+	width:30%;
 	height: auto;
-	margin: 0 auto;
-	overflow:hidden;
-	z-index:100000;
-	}
+	float: right;
+	margin: 2% 0;
+}
+
+
+nav {	color: #FFF;
+	background: #333;
+}
+nav.fixed {
+	position: fixed;
+	top: 0;
+}
+.swich_01,
+.swich_02,
+.swich_03,
+.swich_04{
+    width:80%;
+    font-size:auto;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#fff;
+    background-color: #49a9d4;
+		margin: 3%;
+		border-radius: 10px;
+		box-shadow: 2px 2px 2px #1a6ea0;
+}
+
+/*ボタンの押したときの動き*/
+.swich_01:hover,
+.swich_02:hover,
+.swich_03:hover,
+.swich_04:hover{
+	background-color:#79acdf;
+    -webkit-box-shadow:inset 0px 0px 3px #fff;
+    -moz-box-shadow:inset 0px 0px 3px #fff;
+    box-shadow:inset 0px 0px 3px #fff;
+}
+.swich_01:active,
+.swich_02:active,
+.swich_03:active,
+.swich_04:active{
+    padding-top:6px;
+    padding-bottom:4px;
+    border:1px solid #334c66;
+    background-color:#69c;
+    color:#e0ebf5;
+    -webkit-box-shadow:inset 0px 0px 8px #334c66;
+    -moz-box-shadow:inset 0px 0px 2px #3a6da0;
+    box-shadow:inset 0px 0px 2px #3a6da0;
+}
+
+
 #comment p {
 	text-align: right;
 	position:fixed;
@@ -90,7 +151,7 @@ header {
 }
 #head_logo {
 	margin: 0 0 0 0%;
-	padding:46px 10px 10px 0; 
+	padding:46px 10px 10px 0;
 	width:320px;
 	height:auto;
 	background: #fff;
@@ -158,9 +219,8 @@ nav {
 	display: block;
 	width: 100%;
 	height:auto;
-	margin: 185px auto 0 auto;
+	margin: 1.5% auto 0 auto;
 	text-align: center;
-	position: fixed;
 	color: #fff;
 	font-size: 20px;
 	line-height: 2;
@@ -175,7 +235,6 @@ nav li {
 	position: relative;
 	margin: 0px 0 0 0;
 	float: left;
-	/*width: 25%;*/
 	height: 40px;
 	text-align: center;
 	border-right: 0px solid #fff;
@@ -226,10 +285,10 @@ nav li:hover > ul > li {
 /*コンテンツ------------*/
 
 #contents {
-	width: 960px;
+	width: 100%;
 	height:auto;
-	margin: 0px auto 0 auto;
-	padding: 184px 0 0 0;
+	margin-top: 5%;
+	padding: 5% 0 0 0;
 	background-color: #FFF;
 	z-index: 10;
 }
@@ -242,7 +301,7 @@ nav li:hover > ul > li {
 }
 .bill{
 	width: 960px;
-	margin: -10px auto 0 auto;
+	margin-top: : 15px;
 }
 .bill img{
 	width:100%;
@@ -322,7 +381,7 @@ nav li:hover > ul > li {
 #title_relief{
 	width:100%;
 	margin:10px 0 0 0;
-	
+
 		overflow:hidden;
 	}
 	.wave{
@@ -429,7 +488,7 @@ nav li:hover > ul > li {
 #bill2{
 	clear:both;
 	border:none;}
-	
+
 .bill_left {
 	display:block;
 	float: left;
@@ -600,7 +659,6 @@ nav li:hover > ul > li {
 #freedial2 {
 	clear: both;
 	width:960px;
-	margin: 0 20px 0px 20px;
 }
 #freedial2 img {
 	width: 100%;
@@ -630,4 +688,3 @@ nav li:hover > ul > li {
 	color: #fff;
 	background-color: #33368B;
 }
-

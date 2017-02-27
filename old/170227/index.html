@@ -21,25 +21,8 @@
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="js/meanmenu.js"></script>
 <script type="text/javascript">
-
-
 $(function() {
-
-	//ロード or スクロールされると実行
-	$(window).on('load scroll', function(){
-		//ヘッダーの高さ分(220px)スクロールするとfixedクラスを追加
-		if ($(window).scrollTop() > 180) {
-			$('nav').addClass('fixed');
-		} else {
-			//80px以下だとfixedクラスを削除
-			$('nav').removeClass('fixed');
-		}
-	});
-});
-
-
-$(function() {
-    var topBtn = $('.anchor_link');
+    var topBtn = $('.anchor_link');    
     topBtn.hide();
     //スクロールが100に達したらボタン表示
     $(window).scroll(function () {
@@ -63,7 +46,7 @@ $(function() {
 </head>
 <body>
 <div id="page">
-<!--
+
 <header>
   <div id="top">
 <div id="comment"><p>給湯器交換、ガス機器交換、水廻りのお悩みはお任せください！【 アクアガード 】</p></div>
@@ -78,50 +61,37 @@ $(function() {
    <li><a href="http://www.aqua-guard.co.jp/hwd_example_2.html">給湯器施工例</a></li></p></b>
    </ul>
     </div></div>
--->
-<header>
-  <div id="top">
-    <div class="top_01">
-    <img src="./img/header_01.png">
-    </div>
-    <div class="block_01">
-			<div class="left_swich">
-      <a href="http://www.aqua-guard.co.jp/company_information.html" class="swich_01">会社概要</a>
-			<a href="http://www.aqua-guard.co.jp/privacy.html" class="swich_03">プライバシーポリシー</a>
-		</div>
-			<div class="right_swich">
-			<a href="http://www.aqua-guard.co.jp/infomation.html" class="swich_02">Q ＆ A</a>
-      <a href="http://www.aqua-guard.co.jp/hwd_example_2.html" class="swich_04">給湯器施工例</a>
-			</div>
-    </div>
-  </div>
-</header>
+
+
   <nav>
-		<ul>
-			<li><a href="./index.html">HOME</a></li>
-			<li><a href="http://www.aqua-guard.co.jp/hwd.html">取り扱いサービス</a>
-				<ul>
-				<li><a href="http://www.aqua-guard.co.jp/hwd.html">給湯器</a></li>
-				<li><a href="http://www.aqua-guard.co.jp/kitchen.html">キッチン</a></li>
-			  <li><a href="http://www.aqua-guard.co.jp/toilet.html">トイレ</a></li>
-			  <li><a href="http://www.aqua-guard.co.jp/bathroom.html">バスルーム</a></li>
-			  <li><a href="http://www.aqua-guard.co.jp/lavatory.html">洗面所</a></li>
-			  <li><a href="http://www.aqua-guard.co.jp/airconditioner.html">エアコン</a></li>
-			  <li><a href="http://www.aqua-guard.co.jp/faucet.html">水栓各種</a></li>
-			  <li><a href="http://www.aqua-guard.co.jp/repaire.html">水廻り修理</a></li>
-		</ul>
-			</li>
-		<li><a href="http://www.aqua-guard.co.jp/infomation.html">ご案内</a></li>
- 		<li><a href="http://www.aqua-guard.co.jp/inquiry_sub.html">お問い合わせ</a></li>
-		</ul>
-	</nav>
+<ul>
+<li><a href="./index.html">HOME</a></li>
+<li><a href="http://www.aqua-guard.co.jp/hwd.html">取り扱いサービス</a>
+	<ul>
+	<li><a href="http://www.aqua-guard.co.jp/hwd.html">給湯器</a></li>
+	<li><a href="http://www.aqua-guard.co.jp/kitchen.html">キッチン</a></li>
+  <li><a href="http://www.aqua-guard.co.jp/toilet.html">トイレ</a></li>
+  <li><a href="http://www.aqua-guard.co.jp/bathroom.html">バスルーム</a></li>
+  <li><a href="http://www.aqua-guard.co.jp/lavatory.html">洗面所</a></li>
+  <li><a href="http://www.aqua-guard.co.jp/airconditioner.html">エアコン</a></li>
+  <li><a href="http://www.aqua-guard.co.jp/faucet.html">水栓各種</a></li>
+  <li><a href="http://www.aqua-guard.co.jp/repaire.html">水廻り修理</a></li>
+	</ul>
+</li>
+<li><a href="http://www.aqua-guard.co.jp/infomation.html">ご案内</a></li>
+ <li><a href="http://www.aqua-guard.co.jp/inquiry_sub.html">お問い合わせ</a>
+                    
+                </li>
+            </ul>
+</nav>
+</header>
 <div id="contents">
 <div class="bill"><img src="img/bill1.jpg" alt=""></div>
-
+  
 <div id="estimate">
 <img id="title_estimate" src="img/title_estimate.jpg" alt=" " title="現地にて無料見積もり">
 <div id="estimate_text">
-<p>弊社では必ず現地にてのお見積もりを実施させていただいております。
+<p>弊社では必ず現地にてのお見積もりを実施させていただいております。 
 給湯器、リフォームはお電話ではお伝えしきれない部分が多いため、経験豊富な
 サービススタッフが実際の現場を確認し、お客様のご要望、ご予定をお伺いしまして
 お見積もりをご提案させていただきます。
@@ -237,7 +207,7 @@ $(function() {
 <p>お得なキャンペーン情報、給湯器交換、給湯器
 付属のリモコン交換施工動画を掲載しております。 </p></div>
 
-<div id="freedial2"><img src="img/footer20170223.jpg" alt=""></div>
+<div id="freedial2"><img src="img/inquiry_banner.png" alt=""></div>
 <div class="anchor_link"> <a href="./index.html"><img src="img/topnavi.jpg"></a> </div>
 </div>
 
