@@ -461,51 +461,7 @@ nav.fixed {
 	margin-bottom: 0px;
 	background-color: #FC8121;
 }
-#area {
-	margin: 10px 2% 20px 2%;
-	padding: 10px 0px 15px 0px;
-	width: 96%;
-	border: 0px dashed #0091DD;
-	background-color: #FFC;
-}
-#area h2 {
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: 3px;
-	line-height: 120%;
-	margin: 5px 0 5px 20px;
-	color: #33368B;
-}
-#area h3 {
-	font-size: 16px;
-	font-weight:bold;
-	color: #0092D7;
-	margin-left: 40px;
-	margin: -5px 0 0 10px;
-	padding: 0px 0 0 0;
-}
-#area p {
-	clear:both;
-	margin: 0 0 0 10px;
-    color:#666;
-    line-height:140%;
-	font-size: 14px;
-}
-#map {
-	display: block;
-	float:left;
-	width: 40%;
-	margin:20px 0% 0 4%;
-	background:#FFFFC6;
-}
-#map img{
-	width:75%;
-		}
-#map_sub1 {
-	display: block;
-	width: 100%;
-	margin: 5px 0 0 20px;
-}
+
 #address {
 	float:right;
 	width: 48%;
@@ -547,6 +503,19 @@ nav.fixed {
 	background: white;
 	width:94%;
 }
+
+
+#mapimg{
+	width:100%;
+}
+
+img[usemap] {
+	max-width: 100%;
+    height: auto;
+}
+
+
+
 #sns {
 	float:right;
 	width: 48%;

@@ -584,48 +584,21 @@ nav li:hover > ul > li {
 }
 #maker .publicity img {
 }
-#area {
-	clear: both;
-	margin: 30px 2% 20px 2%;
-	padding: 5px 0px 0px 0px;
-	width: 96%;
-	height:auto;
-	border: 0px dashed #0091DD;
-	background-color: #FFC;
-	overflow:hidden;
+
+
+
+#mapimg{
+	width:100%;
 }
-#area h2 {
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: 3px;
-	line-height: 120%;
-	margin: 5px 0 6px 2%;
-	color: #33368B;
+
+img[usemap] {
+	max-width: 100%;
+    height: auto;
 }
-#area h3 {
-	font-size: 16px;
-	font-weight:bold;
-	color: #0092D7;
-	margin-left: 40px;
-	margin: -5px 0 0 1%;
-	padding: 0px 0 0 0;
-}
-#area p {
-	margin: 0 0 0 1%;
-    color:#666;
-    line-height:140%;
-	font-size: 14px;
-}
-#map {
-	float: right;
-	width: 27%;
-	padding: 0px 2% 10px 0px;
-}
-#map_sub1 {
-	float: left;
-	width: 67%;
-	margin: 5px 0 0 2%;
-}
+
+
+
+
 #address {
 	display: block;
 	float: left;
@@ -654,18 +627,7 @@ nav li:hover > ul > li {
 	line-height: 2;
 	font-weight: bold;
 }
-.yellow {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	background: yellow;
-	width: 100%;
-}
-.white {
-	margin-top: 0px;
-	margin-bottom: 15px;
-	background: white;
-	width: 100%;
-}
+
 #sns {
 	display: block;
 	float: right;
@@ -733,6 +695,7 @@ nav li:hover > ul > li {
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 }
+
 #footer {
 	clear: both;
 	width: 100%;
@@ -752,6 +715,8 @@ nav li:hover > ul > li {
 	float: left;
 	clear:fix;
 }
+
+
 #menu a {
 	display: block;
 	color: #fff;
